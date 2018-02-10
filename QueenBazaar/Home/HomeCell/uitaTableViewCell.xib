@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="uitaTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbs-SZ-cf0">
+                        <rect key="frame" x="0.0" y="61" width="164" height="68.5"/>
+                        <color key="backgroundColor" red="0.41370578174138539" green="1" blue="0.36852116178180472" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="休闲"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bT8-oc-x12">
+                        <rect key="frame" x="165" y="57" width="195" height="71.5"/>
+                        <color key="backgroundColor" red="0.96759407343645898" green="0.50821958091354713" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZVp-6I-Qhi">
+                        <rect key="frame" x="197" y="0.0" width="163" height="62"/>
+                        <color key="backgroundColor" red="1" green="0.89833107234842247" blue="0.22011910606389262" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wq5-EO-XYs">
+                        <rect key="frame" x="0.0" y="0.0" width="205" height="77"/>
+                        <color key="backgroundColor" red="0.90684653484928335" green="0.22417698395300223" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gbs-SZ-cf0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="61" id="7h1-cv-RoI"/>
+                    <constraint firstAttribute="bottom" secondItem="bT8-oc-x12" secondAttribute="bottom" constant="1" id="B05-Ga-loe"/>
+                    <constraint firstAttribute="trailing" secondItem="ZVp-6I-Qhi" secondAttribute="trailing" id="K6d-hv-LH3"/>
+                    <constraint firstAttribute="trailing" secondItem="bT8-oc-x12" secondAttribute="trailing" id="LYu-oE-gT1"/>
+                    <constraint firstItem="gbs-SZ-cf0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VFa-X8-cXC"/>
+                    <constraint firstAttribute="bottom" secondItem="Wq5-EO-XYs" secondAttribute="bottom" constant="52.5" id="aoN-Es-c7B"/>
+                    <constraint firstItem="ZVp-6I-Qhi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="b7p-gC-gDV"/>
+                    <constraint firstAttribute="bottom" secondItem="gbs-SZ-cf0" secondAttribute="bottom" id="bPr-RR-H6l"/>
+                    <constraint firstItem="bT8-oc-x12" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="57" id="ce5-yY-17r"/>
+                    <constraint firstItem="Wq5-EO-XYs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cnq-5A-P5x"/>
+                    <constraint firstAttribute="trailing" secondItem="Wq5-EO-XYs" secondAttribute="trailing" constant="155" id="dOe-ON-Dgb"/>
+                    <constraint firstItem="ZVp-6I-Qhi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="197" id="nqv-GB-0Mh"/>
+                    <constraint firstItem="bT8-oc-x12" firstAttribute="leading" secondItem="gbs-SZ-cf0" secondAttribute="trailing" constant="1" id="o7A-wf-cOm"/>
+                    <constraint firstAttribute="trailing" secondItem="gbs-SZ-cf0" secondAttribute="trailing" constant="196" id="oD8-oM-RMj"/>
+                    <constraint firstItem="Wq5-EO-XYs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ru3-DX-6oC"/>
+                    <constraint firstAttribute="bottom" secondItem="ZVp-6I-Qhi" secondAttribute="bottom" constant="67.5" id="wob-cq-dfD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="gerrBtn" destination="gbs-SZ-cf0" id="hQ0-me-sOL"/>
+            </connections>
+            <point key="canvasLocation" x="54" y="94"/>
+        </tableViewCell>
+    </objects>
+</document>
